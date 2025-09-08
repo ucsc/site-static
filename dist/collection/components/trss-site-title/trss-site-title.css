@@ -1,0 +1,35 @@
+/*
+*  Colors
+*
+*/
+/*
+*  Typography
+*
+*/
+:host {
+  display: block;
+}
+
+.border-bottom-yellow {
+  border-bottom: 1px solid var(--ucsc-primary-yellow);
+}
+
+.site-title > p,
+.site-title > h1 {
+  line-height: 1.2;
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding: 0 2em 1.5rem 0;
+  margin: 1.5em auto 1em auto;
+}
+
+@media (min-width: 48em) {
+  .site-title > p,
+.site-title > h1 {
+    font-size: 2.25rem;
+  }
+}
+a {
+  color: var(--ucsc-black);
+  text-decoration: none;
+}

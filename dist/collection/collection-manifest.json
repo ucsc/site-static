@@ -1,0 +1,21 @@
+{
+  "entries": [
+    "./components/trss-alert/trss-alert.js",
+    "./components/trss-banner/trss-banner.js",
+    "./components/trss-breadcrumbs/trss-breadcrumbs.js",
+    "./components/trss-card/trss-card.js",
+    "./components/trss-carousel/trss-carousel.js",
+    "./components/trss-data-list/trss-data-list.js",
+    "./components/trss-logo/trss-logo.js",
+    "./components/trss-site-title/trss-site-title.js",
+    "./components/trss-ucsc-footer/trss-ucsc-footer.js",
+    "./components/trss-ucsc-header/trss-ucsc-header.js"
+  ],
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "3.0.0",
+    "typescriptVersion": "4.9.4"
+  },
+  "collections": [],
+  "bundles": []
+}

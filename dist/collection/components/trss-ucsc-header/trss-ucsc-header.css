@@ -1,0 +1,176 @@
+/*
+*  Colors
+*
+*/
+/*
+*  Typography
+*
+*/
+:host {
+  display: block;
+}
+
+.trss-ucsc-header {
+  background: linear-gradient(360deg, #003c6c 10%, #006aad 40%);
+  padding: 0 var(--trss-content-padding);
+}
+@media screen and (min-width: 56.25rem) {
+  .trss-ucsc-header {
+    background: linear-gradient(90deg, #003c6c 40%, #006aad 0);
+  }
+}
+.trss-ucsc-header > .trss-row__inner {
+  background-image: linear-gradient(360deg, #003c6c 10%, #006aad 40%);
+  max-width: var(--trss-content-width);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0em;
+  padding: 1em 0;
+}
+@media screen and (min-width: 56.25rem) {
+  .trss-ucsc-header > .trss-row__inner {
+    background-image: linear-gradient(130deg, #003c6c 4rem, #006aad 18rem);
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0;
+    gap: var(--font-size-lg);
+  }
+  .trss-ucsc-header > .trss-row__inner.has-logo {
+    justify-content: space-between;
+  }
+}
+
+.trss-ucsc-header__left {
+  padding: 0.5rem 0 0.5rem 0;
+}
+@media screen and (min-width: 56.25rem) {
+  .trss-ucsc-header__left {
+    padding: 0.5rem 3rem 0.5rem 0;
+  }
+}
+
+.trss-ucsc-header__right {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 0rem;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 56.25rem) {
+  .trss-ucsc-header__right {
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: var(--font-size-lg);
+  }
+}
+
+.trss-ucsc-header__navigation {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 0.9rem;
+  margin: 0;
+  padding: 0;
+  gap: 0.8rem;
+}
+.trss-ucsc-header__navigation li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  flex: auto;
+  text-align: center;
+}
+.trss-ucsc-header__navigation a {
+  text-transform: none;
+  color: var(--ucsc-white);
+  padding: 0.25em 0.5em;
+  text-decoration: none;
+}
+.trss-ucsc-header__navigation a:focus, .trss-ucsc-header__navigation a:hover, .trss-ucsc-header__navigation a:active {
+  color: var(--ucsc-white);
+  text-decoration: underline;
+}
+@media screen and (min-width: 48em) {
+  .trss-ucsc-header__navigation {
+    flex-wrap: nowrap;
+    gap: 1.5em;
+    margin: 0;
+  }
+  .trss-ucsc-header__navigation > li {
+    line-height: 1.2em;
+    list-style-type: none;
+    flex: auto;
+  }
+  .trss-ucsc-header__navigation a {
+    border: none;
+    background-color: transparent;
+    border-radius: 0;
+    font-weight: 400;
+    padding: 0;
+  }
+  .trss-ucsc-header__navigation a:hover, .trss-ucsc-header__navigation a:active, .trss-ucsc-header__navigation a:focus {
+    color: #fff;
+    text-decoration: underline;
+    text-decoration-color: #ffc500;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: 0.12em;
+    text-underline-offset: 0.2em;
+    text-decoration-skip-ink: auto;
+  }
+}
+
+.trss-ucsc-header__search {
+  background-color: var(--ucsc-white);
+  border-radius: var(--border-radius);
+  border: 1px solid var(--ucsc-white);
+  transition: all 0.1s;
+  width: 100%;
+  max-width: 20em;
+  font-size: 0.9rem;
+  margin: 0.5em 0;
+}
+.trss-ucsc-header__search:focus-within {
+  border: 1px solid var(--ucsc-secondary-blue);
+}
+.trss-ucsc-header__search form > div {
+  display: flex;
+}
+.trss-ucsc-header__search input[type=text] {
+  border: none;
+  border-radius: var(--border-radius);
+  padding: 0.25em 0.5em;
+  flex-grow: 1;
+}
+.trss-ucsc-header__search input[type=text]:focus, .trss-ucsc-header__search input[type=text]:hover, .trss-ucsc-header__search input[type=text]:active {
+  color: var(--ucsc-black);
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+.trss-ucsc-header__search input[type=submit] {
+  background: url(https://ucsc-webassets.netlify.app/images/looking-glass.svg) no-repeat;
+  background-size: 16px;
+  background-position: center center;
+  border: 0;
+  left: auto;
+  outline: none;
+  text-indent: -100em;
+  top: 8%;
+  width: 2em;
+  z-index: 100;
+}
+@media screen and (min-width: 48em) {
+  .trss-ucsc-header__search {
+    margin-left: 1em;
+    width: auto;
+    max-width: auto;
+  }
+  .trss-ucsc-header__search form > div {
+    display: block;
+  }
+}

@@ -1,0 +1,21 @@
+:host {
+  display: block;
+}
+
+.trss-logo {
+  all: reset;
+  display: block;
+  transition: all .3s ease;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.trss-logo svg {
+  display: block;
+}
+
+.trss-logo.trss-feature-animation:focus,
+.trss-logo.trss-feature-animation:hover,
+.trss-logo.trss-feature-animation:active {
+  transform: scale(1.2);
+}

@@ -1,0 +1,3 @@
+/* H3s were collapsing in IE8 compatibility mode (IE7)  */
+.landing .three h3 { width:790px; }
+.separate .wrap { width:240px;  }

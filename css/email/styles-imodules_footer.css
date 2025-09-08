@@ -1,0 +1,365 @@
+/* @override 
+    http://static.ucsc.edu/css/email/styles-imodules.css */
+
+/* common
+      --------------------------------------------------*/
+body {
+background:#fefefe;
+color:#333;
+margin:0;
+padding:0;
+}
+
+* #BodyImposter {
+background:#fff;
+color:#555;
+font-family:"Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+margin:0 auto;
+padding:0 0 2em;
+width:100%;
+}
+
+* #BodyImposter li,* #BodyImposter p,* #BodyImposter td {
+-webkit-text-size-adjust:none;
+font-size:13px;
+line-height:1.4em;
+}
+
+* #BodyImposter p,* #BodyImposter ol,* #BodyImposter ul {
+-webkit-text-size-adjust:none;
+margin:0 0 1em;
+}
+
+* #BodyImposter img {
+border:0;
+}
+
+* #Primary img {
+border:1px solid #d3d3d3;
+display:block;
+float:right;
+margin:3px 0 10px 10px;
+padding:2px;
+}
+
+* #Secondary img {
+border:1px solid #d3d3d3;
+display:block;
+margin:2px 0 2px 2px;
+padding:2px;
+}
+
+* #BodyImposter ol {
+padding-left:1em;
+}
+
+* #Primary ul {
+padding-left:1em;
+padding-right:1em;
+}
+
+* #Secondary ul {
+padding:0;
+}
+
+* #BodyImposter ol li {
+margin:0;
+padding:0;
+}
+
+* #BodyImposter ul li {
+list-style:disc;
+margin:4px 0 4px 18px;
+padding:0;
+}
+
+* #BodyImposter #Secondary,* #BodyImposter #Secondary li,* #BodyImposter #Secondary ol,* #BodyImposter #Secondary p {
+-webkit-text-size-adjust:none;
+font-size:12px;
+line-height:1.4em;
+}
+
+* #BodyImposter #Secondary img.borderless {
+border:none !important;
+}
+
+/* links
+      --------------------------------------------------*/
+a:link,a:visited,a:active,* #Primary a:link,* #Primary a:visited,* #Secondary a:link,* #Secondary a:visited {
+background:transparent;
+color:#296FA3;
+}
+
+* #Helpful a:link,* #Helpful a:visited {
+background:transparent;
+color:#900;
+}
+
+a:focus,a:hover,* #BodyImposter a:hover {
+color:#900;
+text-decoration:underline;
+}
+
+* #BodyImposter a:active {
+background:#fff;
+color:#000;
+}
+
+* #BodyImposter #Primary h3 a,* #BodyImposter #Primary strong a {
+color:#296FA3;
+text-decoration:none;
+}
+
+* #BodyImposter #Primary h3 a:hover,* #BodyImposter #Primary strong a:hover {
+color:#296FA3;
+text-decoration:underline;
+}
+
+* #BodyImposter a:hover img,* #BodyImposter a:focus img {
+border-color:#900;
+}
+
+* #BodyImposter h1 a {
+text-decoration:none;
+font-weight:bold;   
+}
+
+
+/* heads
+      --------------------------------------------------*/
+* #BodyImposter h1,* #BodyImposter h2,* #BodyImposter h3,* #BodyImposter h4 {
+-webkit-text-size-adjust:none;
+background:transparent;
+color:#2976BB;
+font-weight:400;
+line-height:normal;
+margin:0 0 12px;
+padding:0;
+text-align:left;
+}
+
+* #BodyImposter #Primary h1 {
+font-weight:bold;
+}
+
+* #BodyImposter #Primary h2 {
+-webkit-text-size-adjust:none;
+border-bottom:4px double #ccc;
+clear:both;
+color:#666;
+font-size:18px;
+margin-top:4px;
+padding:4px 0;
+text-transform:uppercase;
+}
+
+* #Primary h3 {
+-webkit-text-size-adjust:none;
+font-size:22px;
+line-height:1.4em;
+margin-bottom:8px;
+}
+
+* #Secondary h3 {
+-webkit-text-size-adjust:none;
+color:#585755;
+font-size:14px;
+font-weight:700;
+margin-bottom:6px;
+text-align:left;
+}
+
+* #Secondary h4 {
+-webkit-text-size-adjust:none;
+border-bottom:2px solid #ddd;
+clear:both;
+color:#000;
+font-size:13px;
+font-weight:700;
+margin-bottom:8px;
+margin-top:8px;
+padding-bottom:2px;
+}
+
+/* boxes
+      --------------------------------------------------*/
+* #Helpful {
+padding-bottom:20px;
+padding-top:10px;
+}
+
+* #Box {
+-moz-box-shadow:0 0 14px rgba(0,0,0,0.5);
+-webkit-box-shadow:0 0 14px rgba(0,0,0,0.5);
+background:#fff;
+border:1px solid #999;
+border-bottom:0px solid #999;
+box-shadow:0 0 14px rgba(0,0,0,0.5);
+color:#666;
+width:600px;
+}
+
+* #BodyImposter hr {
+border:none;
+border-color:#fff;
+clear:both;
+}
+
+* #Content td#Primary {
+border-right:0px solid #999;
+padding-left:12px;
+}
+
+* #Content td#Secondary {
+background:#F9F8F2;
+line-height:1.2em;
+padding-right:12px;
+}
+
+* #BodyImposter #Helpful {
+color:#999;
+font-size:12px !important;
+margin:0 auto;
+text-align:center;
+}
+
+* #Helpful p {
+color:#333;
+margin:0;
+padding:0;
+text-align:center;
+}
+
+/* custom
+      --------------------------------------------------*/
+* #Masthead img {
+display:block;
+margin:0;
+}
+
+* #Date {
+color:#666;
+text-align:right;
+}
+
+* #Secondary .icons {
+float:left;
+margin:0 0 12px;
+}
+
+* #Secondary .icons a img {
+border:none;
+float:left;
+margin:0 4px 4px 0;
+}
+
+* #Primary #salutation {
+color:#900;
+font-size:14px;
+margin-bottom:2px;
+}
+
+* #Primary .callout {
+background-color:#ededed;
+padding:4px 6px;
+}
+
+* #Secondary hr {
+border:1px solid #ddd;
+margin-bottom:8px;
+}
+
+* #Primary div hr {
+border:1px solid #fff;
+color:#fff;
+}
+
+* #Primary strong,* #Primary b {
+color:#585755;
+font-weight:700;
+}
+
+* #Primary ul li {
+list-style-type:disc;
+margin:0 0 8px 2px;
+}
+
+/* Images with captions
+      ----------------------------------------------------*/
+* #Primary .image img {
+border:none;
+float:none;
+margin:0;
+padding:0;
+}
+
+* #Primary .image {
+border:1px solid #d3d3d3;
+float:right;
+font-size:11px;
+line-height:1.2;
+margin:3px 0 10px 10px;
+padding:2px;
+width:180px;
+}
+
+* #Primary .image .caption {
+font-size:13px;
+}
+
+* #BodyImposter #Content #Secondary #Sidebar td {
+font-size:12px;
+line-height:1.3em;
+margin-bottom:10px;
+}
+
+* #BodyImposter #Content #Secondary #Sidebar td p b {
+color:#666;
+}
+
+* #BodyImposter #Content #Secondary #Sidebar td.block {
+border-bottom:4px double #999;
+padding-bottom:4px;
+padding-top:8px;
+}
+
+* #BodyImposter #Content #Secondary #Sidebar td.last {
+border-bottom:none;
+}
+
+* #BodyImposter #Content .align-right {
+float:right;
+}
+
+* #BodyImposter #Content .align-left {
+float:left;
+}
+
+/* Social Media
+      ----------------------------------------------------*/
+* #social_media {
+-moz-box-shadow:0 0 14px rgba(0,0,0,0.5);
+-webkit-box-shadow:0 0 14px rgba(0,0,0,0.5);
+box-shadow:0 0 14px rgba(0,0,0,0.5);
+width: 602px;
+border: 1px solid #999;
+border-top: 0px solid #999;
+}
+
+* #social_media td {
+font-size:13px;
+line-height:16px;
+padding:0px;
+width:172px;
+}
+
+* #social_media td a {
+color:#000;
+text-decoration:none;
+}
+
+* #social_media .networks {
+display:block;
+font-size:16px;
+font-weight:700;
+}

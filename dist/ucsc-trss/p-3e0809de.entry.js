@@ -1,0 +1,2 @@
+import{r as s,h as c}from"./p-53c133ae.js";const i=":host{display:block}.block-title{margin:0.5em 0 0.75rem}";const t=class{constructor(c){s(this,c);this.imageUrl=undefined;this.imageAlt=undefined;this.header=undefined}render(){return c("div",{class:"block"},c("div",{class:"block-media"},c("img",{alt:this.imageAlt,class:"block-image",src:this.imageUrl})),c("div",{class:"block-body"},c("h3",{class:"block-title"},this.header),c("p",{class:"block-description"},c("slot",null))))}};t.style=i;export{t as trss_card};
+//# sourceMappingURL=p-3e0809de.entry.js.map

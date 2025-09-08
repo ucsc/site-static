@@ -1,0 +1,8 @@
+.primary #yui-main #center .inner { margin-top:1em; } /* Fixes margin-issue in IE5-7 */
+.secondary #center h2 { margin:0.4em 0 0.4em 0; } /* Less margin in IE5-7 */
+ul li { list-style-image:url(http://www1.ucsc.edu/images/bluedot_ie6.gif); } /* Use a different image for IE5-7 */
+#navigation ul li a { font-weight:600; } /* Heavier font in IE */
+#cse-btn { margin-left:6px; } /* Fixes weirdness in IE6 */
+#sb .pages li, #sb #pages li { zoom:1; }
+#sb .pages li a, #sb #pages li a { margin:0.2em 0; zoom:1; }
+#sb .inner, #utilities { width:168px; margin:0 auto 0 10px !important; }

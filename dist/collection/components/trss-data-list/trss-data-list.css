@@ -1,0 +1,60 @@
+/*
+*  Colors
+*
+*/
+/*
+*  Typography
+*
+*/
+.trss-data-list {
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+.trss-data-list > div {
+  margin-bottom: 2rem;
+}
+.trss-data-list h1 a,
+.trss-data-list h2 a,
+.trss-data-list h3 a,
+.trss-data-list h4 a,
+.trss-data-list h5 a,
+.trss-data-list h6 a {
+  color: var(--ucsc-primary-blue);
+}
+.trss-data-list ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.trss-data-list li {
+  display: block;
+  margin-bottom: 1.65rem;
+  text-wrap: pretty;
+}
+.trss-data-list li .meta {
+  display: block;
+  color: var(--ucsc-dark-gray);
+  letter-spacing: 0.03em;
+  font-size: 0.9rem;
+  margin: 0.25em 0 0.5em 0;
+  font-weight: 400;
+}
+.trss-data-list li .header {
+  color: var(--ucsc-secondary-blue);
+  margin: 0.1em 0 0 0;
+  font-size: 1.35rem;
+  font-weight: 500;
+}
+.trss-data-list li .description {
+  color: var(--ucsc-dark-gray);
+  margin: 0.25em 0 0.85em 0;
+}
+.trss-data-list li a:hover, .trss-data-list li a:active, .trss-data-list li a:focus {
+  color: #01589d;
+  text-decoration: underline;
+  text-decoration-color: #ffc500;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: 0.12em;
+  text-underline-offset: 0.2em;
+  text-decoration-skip-ink: auto;
+}

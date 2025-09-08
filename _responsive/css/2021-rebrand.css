@@ -1,0 +1,378 @@
+/* @override http://static.ucsc.edu/css/2021-rebrand.css */
+/* = RESET STYLES */
+.www .ribbon {
+  margin: 0 auto;
+  text-align: left;
+}
+.www .ribbon .inner {
+  max-width: 67.5em;
+}
+.www .ribbon .inner > h3 {
+  font-weight: 600;
+  margin: 0;
+}
+.www .page-top {
+  background: #fff;
+}
+.www .page-top #topNav a {
+  color: #01589d;
+  text-transform: uppercase;
+}
+.www .page-top #topNav > li:after {
+  display: none;
+}
+.www .page-top .search .query {
+  background-size: 1.1em;
+  border-radius: 0.5em;
+  border: 0.1em #01589d solid;
+}
+.www .page-top .srchBtn {
+  background: url("https://www.ucsc.edu/images/2021-branding-images/search-icon.svg") no-repeat;
+  background-color: rgba(255, 255, 255, 0.9);
+  background-size: 1.5em;
+  background-position: center center;
+  border: 0;
+  left: auto;
+  outline: none;
+  position: absolute;
+  right: 1.8%;
+  text-indent: -100em;
+  top: 8%;
+  width: 2em;
+  z-index: 10;
+}
+.www .names .mobile-menu {
+  text-indent: 200%;
+}
+.www .campus-logo {
+  margin: 0 0 0.5em 0.5em;
+}
+.www .home .main-navigation {
+  margin-bottom: 0.5em;
+}
+.www .main-header {
+  margin-bottom: 0.75em;
+}
+.www #mainNav,
+.www .site-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0.6em;
+}
+.www #mainNav li,
+.www .site-nav li {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.www #mainNav li a,
+.www #mainNav li span,
+.www .site-nav li a,
+.www .site-nav li span {
+  color: #003c6c;
+}
+.www .slide {
+  height: 100%;
+  max-height: 623px;
+}
+.www .slide-body.layout-left,
+.www .slide-body.layout-right {
+  max-width: 50%;
+}
+.www .slide-body.layout-left .slide-title,
+.www .slide-body.layout-right .slide-title {
+  font-size: 3.25em !important;
+  text-transform: uppercase;
+}
+.www .slide-body.layout-bottom .slide-title,
+.www .slide-body.layout-top .slide-title {
+  font-size: 3.15em !important;
+  text-transform: uppercase;
+}
+.www .slide-body.layout-left .slide-title,
+.www .slide-body.layout-right .slide-title,
+.www .slide-body.layout-bottom .slide-title,
+.www .slide-body.layout-top .slide-title {
+  text-transform: uppercase;
+}
+.www .slide-body.layout-top {
+  display: table;
+}
+.www .home .archive-list.with-thumbs .item-media {
+  flex: 0 0 100px;
+}
+.www .archive-list.with-thumbs .item-media img {
+  width: 80px;
+  max-width: none;
+}
+.www .inner .header,
+.www .block-header,
+.www .combined .block-header a {
+  text-transform: uppercase;
+  color: #01589d;
+  font-weight: 600;
+}
+.www .archive-list .headline {
+  font-weight: 500;
+}
+.www .more a {
+  background: transparent url(https://www.ucsc.edu/images/2021-branding-images/arrow.svg) no-repeat right 58%;
+  background-size: 14px;
+}
+.www .engagement-block ul {
+  margin-left: 0;
+}
+.www .engagement-block ul li {
+  background-position: 0;
+  font-style: italic;
+  height: 100%;
+  margin: 0 0 0.35em;
+  padding: 0.7em;
+  width: 100%;
+}
+.www .engagement-block li span,
+.www .engagement-block li a span {
+  background: none;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+.www .engagement-block li a span:hover {
+  background: none;
+}
+.www .engagement-block .events a span,
+.www .engagement-block .instagram a span,
+.www .engagement-block .virtualtour a span,
+.www .engagement-block .campaign a span,
+.www .engagement-block .events:active a span,
+.www .engagement-block .instagram:active a span,
+.www .engagement-block .virtualtour:active a span,
+.www .engagement-block .campaign:active a span {
+  color: #fff !important;
+}
+.www .engagement-block .events:hover span,
+.www .engagement-block .instagram:hover span,
+.www .engagement-block .virtualtour:hover span,
+.www .engagement-block .campaign:hover span {
+  color: #000 !important;
+}
+.www .engagement-block .events {
+  background: url("https://www.ucsc.edu/images/2021-branding-images/first-engage-us.png") no-repeat;
+}
+.www .engagement-block .instagram {
+  background: url("https://www.ucsc.edu/images/2021-branding-images/second-engage-us.png") no-repeat;
+}
+.www .engagement-block .virtualtour {
+  background: url("https://www.ucsc.edu/images/2021-branding-images/third-engage-us.png") no-repeat;
+}
+.www .engagement-block .campaign {
+  background: url("https://www.ucsc.edu/images/2021-branding-images/fourth-engage-us.png") no-repeat;
+}
+.www .engagement-block .events:hover,
+.www .engagement-block .events:focus {
+  background: url("https://www.ucsc.edu/images/2021-branding-images/first-engage-us-hvr.png") no-repeat;
+}
+.www .engagement-block .instagram:hover,
+.www .engagement-block .instagram:focus {
+  background: url("https://www.ucsc.edu/images/2021-branding-images/second-engage-us-hvr.png") no-repeat;
+}
+.www .engagement-block .virtualtour:hover,
+.www .engagement-block .virtualtour:focus {
+  background: url("https://www.ucsc.edu/images/2021-branding-images/third-engage-us-hvr.png") no-repeat;
+}
+.www .engagement-block .campaign:hover,
+.www .engagement-block .campaign:focus {
+  background: url("https://www.ucsc.edu/images/2021-branding-images/fourth-engage-us-hvr.png") no-repeat;
+}
+.www .engagement-block .events:active {
+  background: url("https://www.ucsc.edu/images/2021-branding-images/first-engage-us-ovr.png") no-repeat;
+}
+.www .engagement-block .instagram:active {
+  background: url("https://www.ucsc.edu/images/2021-branding-images/second-engage-us-ovr.png") no-repeat;
+}
+.www .engagement-block .virtualtour:active {
+  background: url("https://www.ucsc.edu/images/2021-branding-images/third-engage-us-ovr.png") no-repeat;
+}
+.www .engagement-block .campaign:active {
+  background: url("https://www.ucsc.edu/images/2021-branding-images/fourth-engage-us-ovr.png") no-repeat;
+}
+.www .engagement-block li .strong-caps {
+  font-size: 1.15em;
+}
+.www .factoid-block {
+  margin-top: 2rem;
+}
+.www .four {
+  background: #ebebeb;
+  margin-bottom: 0;
+}
+.www .four .wrap {
+  margin-right: 1%;
+  padding: 0 1rem;
+  width: 24%;
+}
+.www .four .wrap h4 {
+  font-weight: 500;
+}
+.www .four .wrap ul {
+  font-weight: 600;
+}
+.www .main-footer {
+  margin-top: 0;
+}
+@media screen and (max-width: 48em) {
+  .www .page-top .srchBtn {
+    right: 0.5%;
+  }
+  .www #mainNav,
+.www .site-nav {
+    display: table;
+  }
+  .www .slide-body,
+.www .slide-body.layout-top {
+    position: relative;
+    top: -0.4em;
+  }
+  .www .slide-body.layout-left,
+.www .slide-body.layout-right {
+    max-width: 100%;
+  }
+  .www .engagement-block li {
+    max-width: 100%;
+  }
+  .www .engagement-block .events,
+.www .engagement-block .instagram,
+.www .engagement-block .virtualtour,
+.www .engagement-block .campaign,
+.www .engagement-block .events:hover,
+.www .engagement-block .events:focus,
+.www .engagement-block .instagram:hover,
+.www .engagement-block .instagram:focus,
+.www .engagement-block .virtualtour:hover,
+.www .engagement-block .virtualtour:focus,
+.www .engagement-block .campaign:hover,
+.www .engagement-block .campaign:focus {
+    background-size: 100% 100%;
+  }
+  .www .four .wrap {
+    width: 100%;
+    padding: 1rem;
+  }
+}
+
+.slide-body.layout-left.color-pink {
+  background: #003c6c !important;
+  bottom: 5%;
+  margin: 0;
+  padding: 1.5em 2.5em 1.5em 2.5em !important;
+  max-width: 50%;
+}
+
+.slide-body.layout-left.color-pink:after {
+  display: inline-block;
+  color: #fff;
+  content: "UPLOAD PROOF NOW";
+  padding: 0.75em;
+  font-weight: 700;
+  background: #da216d;
+}
+
+@media screen and (max-width: 48em) {
+  .slide-body.layout-left.color-pink {
+    max-width: 100%;
+  }
+}
+.ribbon-alert {
+  background: #fdc700 !important;
+  color: #000 !important;
+}
+
+.ribbon-alert a,
+.ribbon-alert a:active {
+  color: #003c6c !important;
+  text-decoration: underline;
+}
+
+.ribbon-alert a:hover,
+.ribbon-alert a:focus {
+  text-decoration: none;
+}
+
+.engagement-block ul {
+  margin: 0;
+}
+
+.engagement-block li {
+  background: none;
+}
+
+.engagement-block li:hover,
+.engagement-block li:focus {
+  background: #003c6c;
+}
+
+.engagement-block li span {
+  color: #333;
+  padding: 0.6em 0.75em;
+}
+
+.engagement-block li .strong-caps {
+  color: #006aad;
+}
+
+.engagement-block li a span {
+  background: transparent url("data:image/svg+xml;utf8,%3Csvg%20version%3D'1.1'%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20xmlns%3Axlink%3D'http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink'%20x%3D'0px'%20y%3D'0px'%20width%3D'100%25'%20height%3D'100%25'%20fill%3D'%23ffbf00'%20viewBox%3D'0%200%20512%20512'%20enable-background%3D'new%200%200%20512%20512'%20xml%3Aspace%3D'preserve'%3E%3Cpolygon%20id%3D'arrow-30-icon'%20points%3D'229.312%2C50%2079.668%2C50%20284.688%2C256%2079.668%2C462%20229.312%2C462%20434.332%2C256'%2F%3E%3C%2Fsvg%3E") no-repeat 94% center;
+  background-size: auto 1.5em;
+  transition: background-position 700ms;
+}
+
+.engagement-block li a:hover span,
+.engagement-block li a:focus span {
+  background: transparent url("data:image/svg+xml;utf8,%3Csvg%20version%3D'1.1'%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20xmlns%3Axlink%3D'http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink'%20x%3D'0px'%20y%3D'0px'%20width%3D'100%25'%20height%3D'100%25'%20fill%3D'%23ffffff'%20viewBox%3D'0%200%20512%20512'%20enable-background%3D'new%200%200%20512%20512'%20xml%3Aspace%3D'preserve'%3E%3Cpolygon%20id%3D'arrow-30-icon'%20points%3D'229.312%2C50%2079.668%2C50%20284.688%2C256%2079.668%2C462%20229.312%2C462%20434.332%2C256'%2F%3E%3C%2Fsvg%3E") no-repeat 96% center;
+  background-size: auto 1.5em;
+  color: #fff;
+}
+
+.engagement-block li .strong-caps {
+  background: none !important;
+}
+
+.slide-body .slide-title {
+  line-height: 105%;
+}
+
+.owl-carousel {
+  height: 100%;
+  max-height: 625px;
+}
+
+.slide {
+  max-height: 625px;
+}
+
+.slide-body {
+  bottom: 5%;
+}
+
+.campus-message {
+  border-top: 1px #666 solid;
+  border-bottom: 1px #666 solid;
+  font-size: 1.15rem;
+  margin-top: 16px;
+  padding: 2em;
+  text-align: center;
+}
+
+@media screen and (min-width: 48em) {
+  .slide-body.layout-left .slide-title {
+    font-size: 2.25em !important;
+  }
+
+  .slide-body.layout-bottom {
+    height: 25%;
+  }
+
+  .slide-body.layout-left {
+    max-width: 48%;
+  }
+}

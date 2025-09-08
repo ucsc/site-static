@@ -1,0 +1,10 @@
+/* Styles the giving button on a page where this is included */
+.give-btn { height:73px; }
+.give-btn:link,
+.give-btn:visited,
+.give-btn:focus,
+.give-btn:hover,
+.give-btn:active { border-top:1px solid #C3D4E9; padding-top:8px; display:block;  }
+.give-btn span { font-size:10px; display:block; padding-top:18px; }
+.give-btn img { border:none; display:block; float:left; }
+.copyright { clear:both; margin-top:-10px; }

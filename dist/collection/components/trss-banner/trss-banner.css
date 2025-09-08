@@ -1,0 +1,51 @@
+/*
+*  Colors
+*
+*/
+/*
+*  Typography
+*
+*/
+:host {
+  display: block;
+}
+
+.trss-banner {
+  padding: 2em 0;
+  margin: 0;
+  font-size: 1rem;
+  text-align: center;
+}
+.trss-banner a {
+  font-weight: 600;
+  text-decoration: underline;
+  color: inherit;
+}
+.trss-banner .row {
+  margin: 0 auto;
+}
+.trss-banner [slot=header] {
+  margin: 0 0 0.25em 0;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.trss-banner [slot=description] {
+  margin: 0.65em 0;
+}
+.trss-banner[aria-hidden=true] {
+  display: none !important;
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.trss-banner--blue {
+  background-color: #003c6c;
+  color: #fff;
+}
+
+.trss-banner--gold {
+  background-color: #fdc700;
+  color: #003c6c;
+}

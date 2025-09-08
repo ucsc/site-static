@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+#pageTitle h1 {
+	margin:0;
+	float:left;
+	font-size:18px;
+	line-height:42px;
+	padding:0 0 0 10px;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	color: #F1B521;
+}
+@charset "utf-8";
+/* CSS Document */
+#pageTitle h1 {
+	margin:0;
+	float:left;
+	font-size:26px;
+	line-height:42px;
+	padding:0 0 0 10px;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	color: #F1B521;
+	font-weight:bold;
+}
+#pageTitle h1 a {
+	margin:0;
+	float:left;
+	font-size:26px;
+	line-height:42px;
+	padding:0 0 0 10px;
+	text-transform:uppercase;
+	letter-spacing:-1px;
+	color:#F1B521;
+	font-weight:bold;
+}

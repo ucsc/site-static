@@ -1,0 +1,22 @@
+/* @override file:///Users/rknight/Sites/ucsc_webdam/css/custom.css */
+
+#hd #site span { background:#457ab8 url(../images/bg_head.jpg) no-repeat left top; }
+
+/* @group Custom Page Structure */
+
+#custom-doc { width:78.769em; *width:76.802em; min-width:1024px; _width:1024px; margin:0 auto; background:#fff url(http://www.ucsc.edu/includes/css/images/bg_wrapper_2col.gif) repeat-y left top; }
+#hd { position:relative; height:52px; margin-bottom:0; }
+#hd #site { width:839px; }
+#navigation { margin-top:0; }
+
+/* @end */
+
+/* @group Backgrounds and Buttons */
+
+.secondary { background:#DDDDDD url(../images/bg_page.jpg) repeat-x scroll left top; }
+
+#utilities #webdam-search-field { width:120px; border:1px solid #999; padding:3px; font-size:90%;  }
+#utilities #webdam-search-btn { width:22px; height:18px; font-size:11px; background:#457ab8; color:#ffffff; text-transform:lowercase; border:none; cursor:pointer; padding:0; }
+#utilities .links { margin-left:2px; }
+
+/* @end */
